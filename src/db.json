@@ -1,15 +1,19 @@
 {
-    "movie": [
-        {
-            "id": 1,
-            "title": "First film",
-            "year": "2016"
-        },
-        {
-            "id": 2,
-            "title": "Decond film",
-            "year": "2011"
-        }
-    ]
+  "posts": [
+    {
+      "id": "b17e",
+      "title": "ascsac",
+      "year": "2013"
+    },
+    {
+      "id": "88a2",
+      "title": "logl",
+      "year": "10033"
+    },
+    {
+      "id": "269c",
+      "title": "12",
+      "year": "13131"
+    }
+  ]
 }
-  
