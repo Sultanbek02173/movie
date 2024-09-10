@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios'
+import { Link } from 'react-router-dom';
 
 const MovieApp = () => {
     const [movies, setMovies] = useState([]);
@@ -80,7 +81,9 @@ const MovieApp = () => {
                         </div>
                         ) : (
                         <div>
-                            {movie.title} ({movie.year})
+                            <Link to={`/description/${movie.id}`}>
+                                {movie.title} ({movie.year})
+                            </Link>
                             <div>
                                 <button onClick={() => handleEditClick(movie)}>Edit</button>
                                 <button onClick={() => handleDeleteMovie(movie.id)}>Delete</button>
